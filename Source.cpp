@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	int x = 4;
-	int y = x * x;
+	int y = 17;
 	ofstream fout;
 	fout.open("text.txt");
 	fout << x << " * " << x << " = " << y << endl;
